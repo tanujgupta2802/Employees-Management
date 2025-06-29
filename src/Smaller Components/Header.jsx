@@ -13,10 +13,10 @@ const Header = ({ onLogout }) => {
 
         <div>
           <button
-            onClick={onLogout}
+            onClick={() => window.location.reload()}
             className="text-white font-semibold bg-red-500 border-2 border-red-500 rounded-xl px-4 py-2 hover:cursor-pointer hover:bg-red-700 hover:border-red-700"
           >
-            Log Out
+            Back to Login
           </button>
         </div>
       </div>
