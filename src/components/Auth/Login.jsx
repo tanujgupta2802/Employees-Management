@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import MainHeading from "../../Smaller Components/MainHeading";
 
 const Login = ({ handleLogin }) => {
   const [email, setEmail] = useState("");
@@ -24,6 +25,7 @@ const Login = ({ handleLogin }) => {
   return (
     <>
       <section className="min-h-screen bg-gray-50 dark:bg-gray-900">
+        <MainHeading />
         <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
           <h2 className="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
             Login Form
